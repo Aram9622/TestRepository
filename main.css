@@ -1,0 +1,87 @@
+.slider{
+/*    width: 800px;*/
+    height: 500px;
+    border: 1px solid;
+/*    margin: 50px auto;*/
+    position: relative;
+}
+.left{
+    position: absolute;
+    left: 0;
+    top: 43%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    background: black;
+    color: white;
+}
+.right{
+    position: absolute;
+    right: 0;
+    top: 43%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    background: black;
+    color: white;
+}
+
+.action {
+    width: 800px;
+    margin: auto;
+}
+.play,.stop {
+    float: left;
+    width: 400px;
+}
+.play {
+    text-align: right;
+}
+.play button {
+    background: green;
+    border-color: green;
+    color: white;
+    padding: 5px 15px;
+    margin-right: 5px;
+}
+.stop {
+    text-align: left;
+}
+.stop button {
+    background: red;
+    border-color: red;
+    color: white;
+    padding: 5px 15px;
+}
+.bg_image {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.block {
+    width: 133px;
+    height: 80px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    float: left;
+    filter: blur(5px);
+    transition: all 1s ease-in-out;
+/*    position: absolute;*/
+}
+.block:first-child{
+    filter: blur(0px);
+}
+.main-block {
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+    border:1px solid;
+    margin-bottom: 10px;
+}
